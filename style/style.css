@@ -177,9 +177,11 @@ a {
   /* align-items: center; */
   justify-content: space-between;
   box-shadow: 0px 0px 5px -1px #232536;
+  transition: all 0.2s;
 }
 .categories-item a:hover {
   background-color: #ffd050;
+  transform: scale(1.03);
 }
 .categories-item a .c-img {
   background-color: #fbf6ea;
