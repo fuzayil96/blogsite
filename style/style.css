@@ -214,7 +214,7 @@ a {
 }
 /* FOOTER SECTION */
 footer {
-  margin-top: 10rem;
+  margin-top: 20rem;
   height: 250px;
   background-color: #232536;
   display: flex;
@@ -308,4 +308,23 @@ footer {
   font-size: 1.2rem;
   letter-spacing: 1px;
   text-indent: 35px;
+}
+.read-more {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.read-more div {
+  width: 30%;
+  height: 15rem;
+}
+.read-more div a{
+  
+}
+.read-more div img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.read-more div p {
+  padding: 1rem 0;
 }
