@@ -41,6 +41,8 @@ a {
 .menu-items li a:hover {
   border-bottom: 2px solid snow;
 }
+
+/* NAVBAR */
 .navbar {
   height: 400px;
   background-color: #f4f0f8;
@@ -61,9 +63,6 @@ a {
 .content-nav h4 {
   color: #232536;
   font-weight: 500;
-  margin-bottom: 13px;
-  letter-spacing: 2px;
-  font-weight: 540;
 }
 .content-nav h2 {
   color: #232536;
@@ -87,15 +86,16 @@ a {
   margin-top: 1.2rem;
   font-weight: 700;
   color: #232536;
-  transition: background-color 0.2s;
-}
-.content-nav .btn:hover {
-  background-color: #ffd050bd;
 }
 .nav .img img {
   width: 350px;
   height: 259px;
   object-fit: cover;
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    background-color: #ffd050;
+  }
 }
 
 .container {
@@ -130,8 +130,7 @@ a {
   color: #592ea9;
   letter-spacing: 2px;
 }
-.content h5 a:hover,
-.content-nav h4 a:hover {
+.content h5 a:hover {
   border-bottom: 2px solid #592ea9;
 }
 
@@ -185,11 +184,9 @@ a {
   /* align-items: center; */
   justify-content: space-between;
   box-shadow: 0px 0px 5px -1px #232536;
-  transition: all 0.2s;
 }
 .categories-item a:hover {
   background-color: #ffd050;
-  transform: scale(1.03);
 }
 .categories-item a .c-img {
   background-color: #fbf6ea;
@@ -214,7 +211,7 @@ a {
 }
 /* FOOTER SECTION */
 footer {
-  margin-top: 20rem;
+  margin-top: 10rem;
   height: 250px;
   background-color: #232536;
   display: flex;
@@ -264,67 +261,4 @@ footer {
   color: antiquewhite;
   border-bottom: 1px solid antiquewhite;
   padding-bottom: 2px;
-}
-
-/* news.html */
-.post {
-  margin-top: 3rem;
-  padding-bottom: 2.5rem;
-  height: 10rem;
-  display: flex;
-  border-bottom: 1px solid #6d6e76;
-}
-.post .title {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.post .title p {
-  margin-top: 1rem;
-  color: #6d6e76;
-  font-weight: 400;
-  line-height: 20px;
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-}
-.post .info {
-  margin-left: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.post-text {
-  /* width: 600px; */
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-}
-.post-text p {
-  max-width: 800px;
-  margin-top: 1rem;
-  color: #6d6e76;
-  font-weight: 400;
-  line-height: 30px;
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-  text-indent: 35px;
-}
-.read-more {
-  margin: 5rem 0;
-  display: flex;
-  justify-content: space-between;
-}
-.read-more div {
-  width: 30%;
-  height: 15rem;
-}
-.read-more div a{
-  
-}
-.read-more div img {
-  width: 100%;
-  margin-bottom: 1rem;
-}
-.read-more div p {
-  padding: 1rem 0;
 }
